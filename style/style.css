@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    background-color: gray;
+}
+
+.container {
+    padding: 10px 30px;
+    text-align: center;
+}
+
+#pokedex {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-gap: 20px;
+    padding-inline-start: 0;
+    list-style: none;
+}
+
+.pokeman {
+    height: 280px;
+    background: orangered;
+    text-align: center;
+    padding-top: 30px;
+}
+
+h2 {
+    margin-bottom: 0px;
+}
+
+p {
+    margin-top: 0px;
+}
+
+/* .fire {
+    background-color: red;
+}
+
+.water {
+    background-color: lightblue;
+}
+
+.grass {
+    background-color: lightgreen;
+} */
